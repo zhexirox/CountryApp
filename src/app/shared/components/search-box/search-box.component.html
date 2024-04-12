@@ -1,0 +1,7 @@
+<label  for="test" class="form-label">Busqueda:</label>
+<input  type="text"
+        [placeholder]="placeholder"
+        class="form-control"
+        id="test"
+        (keyup.enter)="emitValue( txtInput.value )"
+        #txtInput>
