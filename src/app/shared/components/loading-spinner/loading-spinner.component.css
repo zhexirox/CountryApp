@@ -1,0 +1,15 @@
+.spinner-container {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 17.5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px 0.25px #333;
+}
+span {
+  margin-left: 5px;
+}
